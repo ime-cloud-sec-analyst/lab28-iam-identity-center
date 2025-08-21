@@ -80,3 +80,34 @@ Step 8 — Validate Access
 👤 Author
 Dr. Ime Ben
 AWS Cloud Security Engineer | DevSecOps | IAM & Identity Governance
+
+
+AWS IAM Identity Center Lab – Step-by-Step Breakdown
+Breakdown of Steps with Screenshots
+This section provides a detailed breakdown of the 80 screenshots captured during the execution of the lab. Each screenshot maps directly to a phase of the lab, ensuring full traceability and transparency of the process.
+1. IAM Identity Center Setup (Screenshots 1–15)
+- Created IAM Identity Center user (`cloud-admin`).
+- Configured email invitation for activation.
+- User details such as username, email, and role recorded.
+- Verified the addition of the new user in IAM Identity Center.
+2. Creating Permission Sets (Screenshots 16–30)
+- Created `AdministratorAccess` permission set.
+- Defined session duration and description.
+- Attached AWS managed policies for admin rights.
+- Verified provisioning status of the permission set.
+3. Assigning Users to Accounts (Screenshots 31–50)
+- Assigned `cloud-admin` to the management account.
+- Selected `AdministratorAccess` as the permission set.
+- Verified account association under organizational structure.
+- Reprovisioned permissions to apply updated settings.
+4. MFA Setup and Registration (Screenshots 51–70)
+- Enabled MFA requirement for secure sign-in.
+- Chose Authenticator App for MFA registration.
+- Scanned QR code and linked Authenticator App.
+- Verified successful MFA registration for `cloud-admin`.
+5. AWS Access Portal Login (Screenshots 71–80)
+- Accessed AWS login portal via invitation URL.
+- Logged in with `cloud-admin` and MFA verification.
+- Verified account listed under AWS access portal.
+- Completed successful authentication and lab verification.
+
